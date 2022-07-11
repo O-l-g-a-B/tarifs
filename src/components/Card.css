@@ -1,0 +1,47 @@
+.tarif-card {
+    width: 140px;
+
+}
+
+.card-name {
+    background-color: rgb(38, 146, 182);
+    color: rgb(236, 239, 240);
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+}
+
+.card-price {
+
+    color: rgb(236, 239, 240);
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border: 1px solid white;
+}
+
+.rub,
+.mes,
+.card-mbit,
+.card-text {
+    font-size: 9px;
+}
+
+.card-mbit {
+    background-color: rgb(233, 238, 240);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid white;
+}
+
+.card-text {
+    background-color: rgb(217, 226, 230);
+    padding: 10px;
+    line-height: 17px;
+    border: 1px solid white;
+}
+
+.selected {
+    border: 4px solid grey;
+}
