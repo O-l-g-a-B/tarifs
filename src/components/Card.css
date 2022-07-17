@@ -1,9 +1,8 @@
-.tarif-card {
+.tarifCard {
     width: 140px;
-
 }
 
-.card-name {
+.cardName {
     background-color: rgb(38, 146, 182);
     color: rgb(236, 239, 240);
     font-size: 13px;
@@ -12,7 +11,7 @@
     border: 1px solid white;
 }
 
-.card-price {
+.cardPrice {
 
     color: rgb(236, 239, 240);
     font-size: 30px;
@@ -23,25 +22,25 @@
 
 .rub,
 .mes,
-.card-mbit,
-.card-text {
+.cardMbit,
+.cardText {
     font-size: 9px;
 }
 
-.card-mbit {
+.cardMbit {
     background-color: rgb(233, 238, 240);
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid white;
 }
 
-.card-text {
+.cardText {
     background-color: rgb(217, 226, 230);
     padding: 10px;
     line-height: 17px;
     border: 1px solid white;
 }
 
-.selected {
+.checked {
     border: 4px solid grey;
 }
