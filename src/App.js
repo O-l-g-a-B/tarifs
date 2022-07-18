@@ -50,7 +50,7 @@ const handleClick = (id) => {
         <div className="cardsFlex">
             {
             currentData.map(card =>
-                <Card name={card.name} price={card.price} mbit={card.mbit} text={card.text} color={card.color} key={card.id} isChecked = {card.isChecked} {...card} onClick={handleClick}></Card>
+                <Card {...card} key = {card.id} onClick={handleClick}></Card>
             )
           }
         </div>
